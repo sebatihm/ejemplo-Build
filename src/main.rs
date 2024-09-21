@@ -11,7 +11,7 @@ fn main() {
     let mut builder = PrefixBuilder::default();
     Director::construct_cinnamon(&mut builder);
     let distro = builder.build();
-    distro.save_prefix("texto.txt");
+    let _ = distro.save_prefix("texto.txt");
 
     
 }
