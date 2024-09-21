@@ -1,0 +1,13 @@
+linux_system_config  {
+Users { [{
+ name: usuario
+ sudoer: true 
+ password: usuario 
+}
+] }
+Keyboard layout: es
+Language: Spanish
+Swap: true
+Hostname: Computer
+Profiles { ["Cinnamon"] }
+Optional Repositories: ["git", "vim"]
